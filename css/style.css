@@ -1,3 +1,18 @@
 body {
-    background-color: beige;
+    background-color:snow;
+    align-items: center;
+}
+
+header {
+    color:gray;
+}
+
+.container {
+    margin-left: 25%;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    width: 79%;
+    background-color: honeydew;
+    border: solid 2p slategrey;
 }

@@ -9,11 +9,32 @@
     <script src="js/main.js"></script>
     <title>Roustam's homepage :: Welcome </title>
 </head>
-<body>
-    <h1>Welcome to my website</h1>
-    <h3>Sample heading</h3>
-    <div>sample Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio officiis numquam doloremque harum, quibusdam voluptatum laboriosam eaque quae labore et debitis. Numquam reprehenderit ea perferendis temporibus! Dolor reiciendis saepe nesciunt.</div>
+<body onload="PageLoaded()">
+<div class="container">
+    <header>
+        <h3>Roustam's code and cases</h3>
+    </header>
+    <section>
+        <h4>About</h4>
+        <p>My name is Roustam Dzhafarov. I'm a developer. Here I will share with the code I write and methods I used with the cases I managed to solve.</p>
+    </section>
+    <section ondblclick="ShowContactInfo()">
+        <h4>Online Presence(tap to reveal)</h4>
+        <ul id = 'online_presence_list' >
+            <li>Info is hidden, please double-click to show it.</li>
+        </ul>        
+    </section>
+    <section>
+        <h4>Posts</h4> 
+        <ul>
+            <li>Python script for collecting file details</li>
+            <li>SeaWars game written with JavaScript </li>
+            <li>Yet another case</li>
+            <li>Videos I made with AfterEffects software</li>
+        </ul>
+    </section>
 
-<footer>sample footer, 2019 all rights reserved</footer>
+    <footer>sample footer, 2019 all rights reserved</footer>
+</div>
 </body>
 </html>
