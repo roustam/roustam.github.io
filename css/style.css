@@ -1,18 +1,73 @@
-body {
-    background-color:snow;
-    align-items: center;
+@font-face{ 
+	font-family: 'NeueMachina-Regular';
+	src: url('fonts/NeueMachina-Regular.eot');
+	src: url('fonts/NeueMachina-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/NeueMachina-Regular.woff') format('woff'),
+	     url('fonts/NeueMachina-Regular.ttf') format('truetype'),
+	     url('fonts/NeueMachina-Regular.svg#webfont') format('svg');
 }
 
+@font-face{ 
+    font-family: 'NeueMachina-UltraBold';
+    src: url('fonts/neuemachina-ultrabold-webfont.woff'),
+        url('fonts/neuemachina-ultrabold-webfont.woff2');
+}
+
+
+@font-face{ 
+    font-family: 'NeueMachina-Light';
+    src: url('fonts/neuemachina-light-webfont.woff'),
+        url('fonts/neuemachina-light-webfont.woff2');
+}
+
+
+body {
+    background-color:snow;
+}
+
+
 header {
-    color:gray;
+    font-family: 'NeueMachina-UltraBold', Tahoma, Verdana, sans-serif;
+    font-size: 48px;
+    color: snow;
+    background-color: black;
+    letter-spacing: 0.10em;
+    font-family: 'NeueMachina-Regular', Tahoma, Verdana, sans-serif;
+    padding-left: 54px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-family: 'NeueMachina-Regular', Tahoma, Verdana, sans-serif
 }
 
 .container {
-    margin-left: 25%;
     display: flex;
-    flex-flow: column;
-    align-items: left;
-    width: 79%;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     background-color: honeydew;
     border: solid 2p slategrey;
 }
+
+section {
+    font-family: 'NeueMachina-Regular', Tahoma, Verdana, sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    padding: 1.5em;
+    width: 80%;
+    border: 1px solid red;
+}
+
+footer {
+    padding-left: 54px;
+    font-family: 'NeueMachina-Light', Tahoma, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    /* position:fixed; */
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#000;
+    color: snow;
+ }
