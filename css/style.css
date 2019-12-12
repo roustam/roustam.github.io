@@ -21,10 +21,13 @@
 }
 
 
-body {
-    background-color:snow;
+body{
+    background: url(../img/bgGradient.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
 
 header {
     font-family: 'NeueMachina-UltraBold', Tahoma, Verdana, sans-serif;
@@ -41,12 +44,18 @@ h4 {
     font-family: 'NeueMachina-Regular', Tahoma, Verdana, sans-serif
 }
 
+ul {
+    color: black;
+    background-color: snow;
+    border: 6px double black;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80%;
-    background-color: honeydew;
+    color: white;
     border: solid 2p slategrey;
 }
 
@@ -56,18 +65,18 @@ section {
     line-height: 1.7em;
     padding: 1.5em;
     width: 80%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 footer {
     padding-left: 54px;
     font-family: 'NeueMachina-Light', Tahoma, Verdana, sans-serif;
     letter-spacing: 0.15em;
-    /* position:fixed; */
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background:#000;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 32px;
+    width: 100%;
+    background: #000;
     color: snow;
  }
