@@ -8,7 +8,11 @@ function submitInput() {
 
   sel = document.getElementById('age')
   for (i in inputs_list) {
+<<<<<<< HEAD
     if (inputs_list[i].value == '' && inputs_list[i].id != undefined) {
+=======
+    if (inputs_list[i].value == '' && inputs_list[i].value != undefined) {
+>>>>>>> f99f40670d891106a5fdcdefe2b6d56d3d0549ac
       panel.append('Введите значение для поля ',labels_list[i].innerHTML)
       panel.append('\n')
     }
