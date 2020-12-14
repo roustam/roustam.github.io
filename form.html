@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Форма для тестирования</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/test_main.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+
+      <h1>Форма для тестирования</h1>
+      <span>
+        <ul>
+          <li><a href="https://github.com">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </ul>
+      </span>
+      <form class="default_form" action="#" method="post">
+          <label for="first_name">Имя</label>
+          <input  type="text" name="first_name" value="" id="input_text">
+              <label for="second_name">Фамилия</label>
+          <input  type="text" name="second_name" value="" id="sec_input_text">
+                    <label for="patronymic">Отчество</label>
+          <input  type="text" name="patronymic" value="" id="pat_input_text">
+
+          <p><select name="list1" id = 'age'>
+           <option>Укажите возраст</option>
+           <option>18-29</option>
+           <option>30-45</option>
+           <option>45 и более</option>
+          </select></p>
+
+
+          <button type="button" class='defaultButton' onclick="submitInput()">Отправить</button>
+          <button type="button" name="button" onclick = "clearInput()">Удалить</button>
+      </form>
+
+      <textarea class="outputPanel" id="bottomPanel" cols="60" rows="20">
+
+      </textarea>
+      <script type="text/javascript">
+          console.log('script fired')
+          panel = document.getElementById('bottomPanel')
+          panel.innerText = ''
+
+      </script>
+  </body>
+</html>

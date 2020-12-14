@@ -1,0 +1,6 @@
+form{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  width: 450px;
+}
