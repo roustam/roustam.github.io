@@ -1,0 +1,686 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+h2 {
+    margin:0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 1440px;
+    justify-content: space-between;
+}
+
+.containter {
+    margin-left: 203px;
+}
+
+.top-logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 26px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.top-logo img {
+    width: 31px;
+    height: 31px;
+}
+
+.top-menu {
+    display:flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 360px;
+    justify-content: flex-end;
+    padding: 23px 30px 0 0;
+    margin: 0;
+}
+
+.top-menu li:not(:last-child) {
+    margin-right:30px;
+}
+
+.top-menu a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #474747;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+}
+
+.red-hero-text {
+    display: block;
+    color: #FC3C4F;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 76px;
+    /* line-height: 70px; */
+}
+
+
+/* Book unique homes an */
+
+
+
+
+.top-hero-text {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    color: #383838;
+    font-family: Poppins;
+    margin-top:-14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    /* line-height: 52px; */
+    letter-spacing: 0.15px;
+    line-height: 56px;
+}
+
+section.hero-search {
+    display: flex;
+    flex-flow: column;
+    width: 1030px;
+    margin-top: 121px;
+}
+
+.search-box {
+    display: flex;
+    flex-flow: row;
+}
+
+.search-input {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 26px;
+    padding-left: 62px;
+    height: 72px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    border-radius: 5px;
+    width: 1030px;
+    color:#767676;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 16px #ECECEC;
+    border-radius: 5px;
+    background: url("../img/search-icon.svg") no-repeat 20px 23px;
+    background-size: 25px 25.07px;
+    padding-top: 5px;
+}
+
+.search-btn {
+    display:flex;
+    position: relative;
+    top: 30px;
+    background: #FF5661;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height:48px;
+    width: 95px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 8px;
+    margin-left: -107px;
+    padding: 0;
+}
+
+.explore {
+    margin-top: 106px;
+}
+
+.explore h3 {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #484848;
+    margin:0;
+    padding:0 0 0 3px;
+    letter-spacing: normal;
+}
+
+.explore-list {
+    width: 1030px;
+    margin: 6px 0 0 3px;
+    padding: 0;
+}
+
+.explore-list li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color:  #484848;
+    margin-right:18px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px #EFEFEF;
+    height: 72px;
+    width: 244px;
+    border-radius: 5px;
+}
+
+.explore-list-label {
+    position: relative;
+    top: 25px;
+    left: 114px;
+
+}
+
+.explore-list li:nth-child(1) {
+    background:0 0 url("../img/home-bedroom.jpg") no-repeat;
+    background-size: contain;
+}
+
+.explore-list li:nth-child(2) {
+    background:0 0 url("../img/kayaking.jpg") no-repeat;
+    background-size: contain;
+}
+
+.explore-list li:nth-child(3) {
+    background:0 0 url("../img/cooking.jpg") no-repeat;
+    background-size: contain;
+}
+
+section.experiences {
+    margin: 64px 0 0 0;
+    width: 450px;
+}
+
+section.experiences h3,
+section.homes h3,
+section.featured-destinations h3,
+section.experiences-in-new-york h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color:#484848;
+    line-height: 43px;
+    letter-spacing: 0.2px;
+    margin:0;
+    padding: 0 0 0 3px;
+}
+
+section.experiences ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    width: 1030px;
+    margin:0 0 0 3px;
+    padding: 0; 
+}
+
+section.experiences ul > li:not(:first-child) {
+    padding-left: 19px;
+}
+
+
+section.experiences ul > li {
+    display: flex;
+    flex-flow: column;
+    height: 260px;
+    margin: 0;
+    padding-top: 5px;
+} 
+
+section.experiences li img {
+    width: 243px;
+    height: 164px;
+    border-radius: 3px;
+
+}
+
+section.experiences li .location {
+    margin: 5px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    color: #002B37;
+}
+
+section.experiences li .title {
+    margin: 5px 0 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    /* or 129% */
+    letter-spacing: 0.17px;
+    color: #464646;
+}
+
+section.experiences li .price {
+    margin: 3px 0 0 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.14px;
+    color: #464646;
+}
+
+section.experiences .rating-stars {
+    margin-top:2px;
+    line-height: 20px;
+}
+
+
+/* section.experiences li  */
+.rating {
+    display: inline-flex;
+    align-items: baseline;
+    margin-top: -4px;
+    margin-left: -1px;
+}
+
+.rating-stars {
+    display: flex;
+    flex-wrap: wrap;
+    height: 14px;
+    width: 61px;
+    font-size: 12px;
+    color:#00A799;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+}
+
+.rating-num {
+    display: flex;
+    flex-flow: row;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    color: #484848;
+    text-align: start;
+    margin: 0 0 0 5px;
+}
+
+section.homes {
+    margin: 81px 0 0 0;
+}
+
+section.homes ul {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 4px 0 0 1px;
+    padding:0;
+}
+
+section.homes li img {
+    border-radius: 3px;
+}
+
+section.homes li:not(:first-child) {
+    margin: 0 0 0 18px;
+}
+
+section.homes .location {
+    margin: -2px 0 0 -1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height, or 182% */
+    
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+    
+    color: #4F4F4F
+}
+
+section.homes .title,
+section.experiences-in-new-york ul > li > .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.17px;
+    color: #484848;
+    margin:5px 0 0 -1px;
+}
+
+section.homes .price,
+section.experiences-in-new-york ul > li > .price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+    color: #464646;
+    margin: 3px 0 -6px -1px;
+}
+
+section.homes .rating-stars {
+    margin: 1px 0 0 -2px;
+}
+section.homes .rating .superhost {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.0769231px;
+    color: #484848;
+    padding:0;
+    margin:0 0 0 18px;
+    white-space: pre;
+}
+
+section.homes > ul > li:last-child .superhost {
+    display: none;
+}
+
+section.featured-destinations {
+    margin: 61px 0 0 0;
+    width: 1030px;
+    height: 320px;
+    /* background-color: lightgreen; */
+}
+
+section.featured-destinations h3 {
+    padding: 0 0 0 0;
+    letter-spacing: 0.005em;
+
+}
+
+section.featured-destinations ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 4px 0 0 0;
+    width:1032px;
+}
+
+section.featured-destinations ul > li {
+    height: 157px;
+    /* width: 275px; */
+    margin:0;
+}
+
+section.featured-destinations ul > li:not(:last-child) {
+    /* margin-right: 11px; */
+} 
+
+section.featured-destinations ul > li img {
+    margin: 0;
+    padding: 0;
+}
+
+section.featured-destinations ul > li > .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+    color: #484848;
+
+}
+
+section.experiences-in-new-york {
+    margin: 62px 0 0 0;
+}
+
+section.experiences-in-new-york h3 {
+    padding: 0 0 0 0;
+}
+
+section.experiences-in-new-york > ul{
+    padding: 0;
+    margin: 4px 2px 0 0;
+}
+section.experiences-in-new-york > ul > li  {
+    width: 243px;
+}
+
+section.experiences-in-new-york > ul > li > .top-image {
+    /* width: 243px; */
+    height: 164px;
+    background-size: contain;
+}
+
+section.experiences-in-new-york > ul > li:not(:last-child) {
+
+    margin: 0 20px 0 0;
+}
+
+section.experiences-in-new-york > ul > li:nth-child(1) > .top-image {
+    /* background-image: url('../img/new-york-exprs/street-art-scene-w-photogr.jpg'); */
+    background: url('../img/new-york-exprs/street-art-scene-w-photogr.jpg') no-repeat left top;
+    background-size: contain;
+}
+
+
+section.experiences-in-new-york > ul > li:nth-child(3) > .top-image {
+    background-image: url('../img/new-york-exprs/best-funk-folk-nyc-sbw.jpg');
+    background-repeat: no-repeat;
+}
+
+
+section.experiences-in-new-york > ul > li:nth-child(2) > .top-image{
+    background-image: url('../img/new-york-exprs/discover-hidden-artwork-w-curator.jpg');
+    background-repeat: no-repeat;
+}
+
+
+section.experiences-in-new-york > ul > li:nth-child(4) > .top-image{
+    background-image: url('../img/new-york-exprs/glass-for-prohibition.jpg');
+    background-repeat: no-repeat;
+}
+
+section.experiences-in-new-york > ul > li > .title {
+    min-height: 44px;
+}
+
+.event-type {
+    color: #F08237;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+    letter-spacing: 0.11px;
+}
+
+.brown {
+    color: #8F5131;
+}
+
+footer {
+    margin-top: 93px;
+    border-top: 1px solid #DBDBDB;
+    height: 330px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:1032px;
+    padding-top: 48px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.language-select {
+    display: flex;
+    flex-flow: column;
+    width: 246px;
+    align-self: flex-start;
+}
+
+.wrapper-menu-list {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 38px 0;
+    padding:0;
+}
+
+
+.wrapper-menu-list > li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767676;
+    margin-bottom: 5px;
+}
+
+.wrapper-menu-list > li:first-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #484848;
+    margin-bottom: 16px;
+    padding-top: 3px;
+    /* line-height: 20px; */
+}
+
+footer .language-select > select  {
+    height: 46px;
+    width: 246px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 24px;
+    color: #484848;
+    padding: 6px 12px 0 5px;
+    margin-bottom:8px;
+    border: 0.5px solid #DBDBDB;
+}
+
+.airbnb-col {
+    margin-left: 104px;
+}
+
+.discover-col {
+    margin-left: 107px;
+}
+
+.hosting-col {
+    margin-left: 150px;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-flow: row;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767676;
+    margin: 23px 0 0 2px;
+    justify-content:flex-start;
+}
+
+.bottom-logo {
+    margin-right: 11px;
+}
+
+.footer-bottom a{
+    text-decoration: none;
+    color: #767676;
+}
+
+.footer-bottom a:not(:last-child) {
+    margin-right: 16px;
+}
+
+.footer-bottom p {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.footer-links a {
+    letter-spacing: 0.15px;
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.footer-social {
+    width: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    height: 20px;
+    margin:0 0 0 13px;
+    padding-top: 4px;
+
+}
+
+.footer-social .fb {
+    background-image: url('../img/social/fb.png');
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-right: 16px;
+
+}
+
+.footer-social .tw {
+    background-image: url('../img/social/tw.png');
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+    margin-right: 16px;
+}
+
+.footer-social .inst {
+    background-image: url('../img/social/inst.png');
+    background-repeat: no-repeat;
+    height: 15px;
+    width: 15px;
+}
+
+.bottom-text {
+    height: 25px;
+    padding-top: 5px;
+    margin-right: 611px;
+}
