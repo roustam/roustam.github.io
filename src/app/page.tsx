@@ -10,18 +10,17 @@ export default function Home() {
       <div className="flex flex-nowrap justify-between px-4 py-4 bg-white mt-4 rounded-xl">
         <div className="flex max-xl:flex-row justify-between flex-nowrap">
           <div>
-            <p>Hello, my name is Roustam.</p>
-            <p>
-            I&apos;m a Full Stack Engineer focused on building products with extra attention to detail
-            </p>
+            <p>Hello, my name is Roustam.</p>          
+            
             <p className=" py-3 tracking-wide">
-              I write simple, concise, and expressive code that is easy to maintain and extend. Currently, I work mostly with FastApi, Django, and ReactJS.
-              I have over 6 years of experience in working remotely with companies all around the world.
+Full-stack Software Engineer (React/Next.js, Django/FastAPI) with 8+ years of commercial experience, building and
+shipping web products end-to-end. Known for bridging gaps between dev, DevOps, design, and management
+teams - turning unclear requirements into shipped products. Brings the same direct communication style to customers,
+cutting through back-and-forth to keep projects moving.
             </p>
-          <p className=" font-semibold tracking-wide">Contact me today and lets build something extraordinary.</p>
 
-          <p>P.S. I&apos;m not just writing code - I solve client problems, collaborate
-           and turn complex concepts into elegant solutions.</p>
+
+          
           </div>
 
           <Image src={'/img/photo-small.png'} className="max-lg: hidden" alt="my photo" height={0} width={0}  
